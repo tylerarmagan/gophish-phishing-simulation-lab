@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Northstar Training Portal</title>
+  <style>
+    body { background:#f4f6f8; color:#1f2933; font-family:Arial,sans-serif; margin:0; padding:40px 20px; }
+    main { background:#fff; border:1px solid #d8dee4; border-radius:8px; margin:auto; max-width:420px; padding:28px; }
+    label { display:block; font-weight:600; margin-top:16px; }
+    input { box-sizing:border-box; margin-top:6px; padding:10px; width:100%; }
+    button { background:#244a73; border:0; border-radius:5px; color:#fff; cursor:pointer; margin-top:20px; padding:11px 18px; width:100%; }
+    .notice { background:#fff4ce; border-left:4px solid #d69e00; padding:12px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="notice">Authorized classroom exercise. Never enter a real password, MFA code, or personal information.</p>
+    <h1>Northstar Training Portal</h1>
+    <p>Enter the dummy laboratory training code supplied by the instructor.</p>
+    <form method="POST">
+      <label for="training-code">Training code</label>
+      <input id="training-code" name="training_code" autocomplete="off" placeholder="Example: LAB-482">
+      <button type="submit">Submit Training Code</button>
+    </form>
+  </main>
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+# GoPhish databases and logs
+gophish.db
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Secrets and environment files
+.env
+.env.*
+*.secret
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local GoPhish configuration and certificates
+config.json
+gophish_admin.crt
+gophish_admin.key
+example.crt
+example.key
+
+# Campaign exports and sensitive evidence
+exports/
+private-evidence/
+recipient-lists/
+*.csv
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
