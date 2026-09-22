@@ -65,8 +65,6 @@ gophish-phishing-simulation-lab/
 │   └── vps-brevo-domain-guide.md
 ├── examples/
 │   └── config.example.json
-├── screenshots/
-│   └── README.md
 └── templates/
     ├── fictional-training-email.html
     └── fictional-training-page.html
@@ -110,10 +108,6 @@ See [Findings and Defensive Opportunities](docs/findings-and-defenses.md) for th
 - Phishing lifecycle analysis
 - Detection and mitigation mapping
 - Ethical scoping and data handling
-
-## Portfolio Evidence
-
-The repository intentionally excludes secrets and real campaign data. The [screenshots guide](screenshots/README.md) lists useful evidence that can be added after redacting domains, email addresses, API keys, recipient identifiers, tracking IDs, and submitted data.
 
 ## Limitations
 
