@@ -125,15 +125,6 @@ See [Findings and Defensive Opportunities](docs/findings-and-defenses.md) for th
 - Document mail-gateway detections and browser warnings.
 - Create a defender-focused incident-response exercise around reported messages.
 
-## Resume Summary
-
-**Phishing Simulation & Email Security Lab — June 2026–Present**
-
-- Built an isolated phishing-simulation environment by deploying and configuring GoPhish on a VPS and integrating a personally owned domain for authorized security testing.
-- Implemented and validated SPF, DKIM, and DMARC DNS records to enforce sender authentication and strengthen domain protection.
-- Created controlled Microsoft- and Google-inspired scenarios to study credential-phishing and social-engineering techniques.
-- Executed self-targeted campaigns and analyzed results to map the phishing lifecycle and identify defensive detection opportunities.
-
 ## Responsible Use
 
 Only use GoPhish with written authorization, controlled infrastructure, and recipients who are explicitly within scope. The maintainers of GoPhish and the services referenced here have their own terms and acceptable-use requirements. Read [DISCLAIMER.md](DISCLAIMER.md) before reproducing any portion of this lab.
